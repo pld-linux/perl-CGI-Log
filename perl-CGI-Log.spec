@@ -3,7 +3,7 @@ Summary:	CGI-Log perl module
 Summary(pl):	Modu³ perla CGI-Log
 Name:		perl-CGI-Log
 Version:	1.00
-Release:	5
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
