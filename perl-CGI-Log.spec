@@ -1,12 +1,11 @@
-%define	pdir	CGI
-%define	pnam	Log
 %include	/usr/lib/rpm/macros.perl
+%define		pdir	CGI
+%define		pnam	Log
 Summary:	CGI-Log perl module
 Summary(pl):	Modu³ perla CGI-Log
 Name:		perl-CGI-Log
 Version:	1.00
 Release:	8
-
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -23,7 +22,7 @@ status and success messages from scripts or other modules.
 Modu³ perla CGI-Log.
 
 %prep
-%setup -q -n CGI-Log-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
