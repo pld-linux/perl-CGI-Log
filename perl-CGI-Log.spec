@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	CGI
-%define	pnam	Log
+%define		pdir	CGI
+%define		pnam	Log
 Summary:	CGI::Log - Perl extension for centralized logging
 Summary(pl):	CGI::Log - rozszerzenia Perla do scentralizowanego logowania
 Name:		perl-CGI-Log
