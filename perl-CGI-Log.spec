@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	CGI
 %define		pnam	Log
-Summary:	CGI-Log perl module
-Summary(pl):	Modu³ perla CGI-Log
+Summary:	CGI::Log perl module
+Summary(pl):	Modu³ perla CGI::Log
 Name:		perl-CGI-Log
 Version:	1.00
 Release:	8
@@ -15,11 +15,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-CGI-Log - Perl extension for centralized logging of debug, error,
+CGI::Log - Perl extension for centralized logging of debug, error,
 status and success messages from scripts or other modules.
 
 %description -l pl
-Modu³ perla CGI-Log.
+Modu³ perla CGI::Log.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
