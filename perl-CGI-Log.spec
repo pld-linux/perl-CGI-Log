@@ -1,12 +1,13 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	CGI
 %define		pnam	Log
-Summary:	CGI::Log perl module
-Summary(pl):	Modu³ perla CGI::Log
+Summary:	CGI::Log - Perl extension for centralized logging
+Summary(pl):	CGI::Log - rozszerzenia Perla do scentralizowanego logowania
 Name:		perl-CGI-Log
 Version:	1.00
 Release:	10
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	558abf0a80fcf2a068825215c46fb841
@@ -16,13 +17,17 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-CGI::Log - Perl extension for centralized logging of debug, error,
-status and success messages from scripts or other modules.
+CGI::Log Perl module acts as a central repository for debug, status
+and error messages.  It instantiates itself automatically (if it needs
+to) so you can access the Log object functions from anywhere in you
+code including other modules/objects with a simple consistent syntax.
 
 %description -l pl
-Modu³ perla CGI::Log - s³u¿±cy do zcentralizowanego logowania
-informacji diagnostycznych, b³êdów, statusu itp. ze skryptów i innych
-modu³ów.
+Modu³ Perla CGI::Log dzia³a jako centralne repozytorium dla informacji
+diagnostycznych, b³êdów, statusu itp. Tworzy on swoj± kopiê
+automatycznie gdy potrzeba, wiêc dostêp do funkcji obiektu Log jest
+mo¿liwy sk±dkolwiek, je¶li program korzystaj±cy z innych modu³ów /
+obiektów ma prost± i spójn± sk³adniê.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
