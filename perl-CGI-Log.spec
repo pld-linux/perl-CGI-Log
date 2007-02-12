@@ -2,7 +2,7 @@
 %define		pdir	CGI
 %define		pnam	Log
 Summary:	CGI::Log - Perl extension for centralized logging
-Summary(pl):	CGI::Log - rozszerzenia Perla do scentralizowanego logowania
+Summary(pl.UTF-8):   CGI::Log - rozszerzenia Perla do scentralizowanego logowania
 Name:		perl-CGI-Log
 Version:	1.00
 Release:	11
@@ -22,12 +22,12 @@ and error messages.  It instantiates itself automatically (if it needs
 to) so you can access the Log object functions from anywhere in you
 code including other modules/objects with a simple consistent syntax.
 
-%description -l pl
-Modu³ Perla CGI::Log dzia³a jako centralne repozytorium dla informacji
-diagnostycznych, b³êdów, statusu itp. Tworzy on swoj± kopiê
-automatycznie gdy potrzeba, wiêc dostêp do funkcji obiektu Log jest
-mo¿liwy sk±dkolwiek, je¶li program korzystaj±cy z innych modu³ów /
-obiektów ma prost± i spójn± sk³adniê.
+%description -l pl.UTF-8
+ModuÅ‚ Perla CGI::Log dziaÅ‚a jako centralne repozytorium dla informacji
+diagnostycznych, bÅ‚Ä™dÃ³w, statusu itp. Tworzy on swojÄ… kopiÄ™
+automatycznie gdy potrzeba, wiÄ™c dostÄ™p do funkcji obiektu Log jest
+moÅ¼liwy skÄ…dkolwiek, jeÅ›li program korzystajÄ…cy z innych moduÅ‚Ã³w /
+obiektÃ³w ma prostÄ… i spÃ³jnÄ… skÅ‚adniÄ™.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
