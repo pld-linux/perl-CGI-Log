@@ -5,7 +5,7 @@ Summary:	CGI::Log - Perl extension for centralized logging
 Summary(pl.UTF-8):	CGI::Log - rozszerzenia Perla do scentralizowanego logowania
 Name:		perl-CGI-Log
 Version:	1.00
-Release:	11
+Release:	12
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
